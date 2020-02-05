@@ -9,11 +9,14 @@ public class Main {
         double a = 33.3;
         double b = 66.6;
         double r = sum(a, b);
-        double r2 = multiply(a, b);
         System.out.println(a + " + " + b + " = " + r);
 
-        double r2 = sum(a, b);
+        double r2 = sub(a, b);
         System.out.println(a + " - " + b + " = " + r2);
+
+        double r3 = multiply(a, b);
+        System.out.println(a + " * " + b + " = " + r3);
+
 
     }
 
