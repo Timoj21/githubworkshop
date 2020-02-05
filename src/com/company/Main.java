@@ -11,9 +11,26 @@ public class Main {
         double r = sum(a, b);
         System.out.println(a + " + " + b + " = " + r);
 
+        double r2 = sub(a, b);
+        System.out.println(a + " - " + b + " = " + r2);
+
+        double r3 = multiply(a, b);
+        System.out.println(a + " * " + b + " = " + r3);
+
+
     }
 
     public static double sum(double a, double b){
         return a + b;
     }
+
+    public static double sub(double a, double b){
+        return a - b;
+    }
+
+    public static double multiply(double a, double b){
+        return a * b;
+    }
+
+
 }
